@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tg-bot-template"
+version = "0.1.0"
+description = ""
+authors = ["BotirIslomboev <=>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.18.0"
+pydantic-settings = "^2.8.1"
+fastapi = "^0.115.11"
+uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.39"
+pytest = "^8.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
